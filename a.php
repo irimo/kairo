@@ -1,8 +1,8 @@
 <?php
-require_once(DIRNAME(__FILE__)."/../../conf/conf.php");
-require_once(CLASS_DIR."/kairo/Result.class.php");
-require_once(CLASS_DIR."/kairo/db_common_class.php");
-require_once(CLASS_DIR."/common/escape.php");
+require_once(DIRNAME(__FILE__)."/conf/conf.php");
+require_once(CLASS_DIR."/Result.class.php");
+require_once(CLASS_DIR."/db_common_class.php");
+require_once(COMMON_CLASS_DIR."/common/escape.php");
 require_once(SMARTY_H);
 
 $smarty = new Smarty();
