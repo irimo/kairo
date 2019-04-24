@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="kairo.css">
+</head>
+
+<body>
+<div id="main">
+<h1>
+<a href="/kairo/"><img src="./images/kairo/title2.png" alt="論理回路性格診断" border="0"></a>
+</h1>
+<h3>
+
+{$n}さんの論理回路は<br>
+<strong>{$type}</strong>です！
+</h3>
+<br>
+<img src="card.php?p1={$p1}&p2={$p2}&n={$n}&c={$c}"><br>
+<br>
+<br>
+<br>
+{if strlen($key)>0}
+          <a href="" onclick="document.form1.submit();return false;" >結果をfacebookのウォールに投稿</a>
+          <form name="form1" method="POST" action="./fb/post.php" >
+          <input type=hidden name="message" value="{$n}さんを論理回路で表すと、【{$type}】です！">
+          <input type=hidden name="picture" value="http://mnlab.sakura.ne.jp/kairo/card.php?p1={$p1}&p2={$p2}&n={$n}&c={$c}}">
+          <input type=hidden name="key" value="{$key}">
+          </form>
+{/if}
+<br>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-1124949287563503";
+/* 300x250, 作成済み 09/12/17 */
+google_ad_slot = "9774193911";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<br>
+いかがでしたか？この回路を見た際には、親近感をもって接してくださいな。<br>
+<a href="q.php?n={$n}">もう一回診断する</a><br>
+<br>
+<br>
+<div class="totop"><a href="index.html">トップへ戻る</a></div>
+</body>
+</html>
