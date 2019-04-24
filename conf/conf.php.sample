@@ -10,6 +10,7 @@ define("DOCROOT", "http://localhost/");
 }
 define("CONF_DIR", HOME_DIR."/conf");
 define("CLASS_DIR", HOME_DIR.'/class');
+define("COMMON_CLASS_DIR", '/home/name/class');
 define("DOCROOT_DIR", HOME_DIR."");
 
 define ("SMARTY_H", CLASS_DIR."/Smarty/Smarty.class.php");
