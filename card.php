@@ -1,5 +1,5 @@
 <?php
-require_once(DIRNAME(__FILE__)."/../../conf/conf.php");
+require_once(DIRNAME(__FILE__)."/conf/conf.php");
 
 
 
@@ -19,7 +19,7 @@ $param + 1234567;
 $param %= 7;
 $param += 1;
 
-$imgdir = CLASS_DIR."/kairo/card_base";
+$imgdir = CLASS_DIR."/card_base";
 $imgpath = $imgdir . "/".$card.$param.".png";
 $img = imagecreatefrompng($imgpath);
 
