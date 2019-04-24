@@ -1,9 +1,9 @@
 <?php
 
 require_once(DIRNAME(__FILE__)."/conf/conf.php");
-require_once(CLASS_DIR."/kairo/UTILS.class.php");
-require_once(CLASS_DIR."/kairo/COMMON_KAIRO.class.php");
-require_once(CLASS_DIR."/common/escape.php");
+require_once(CLASS_DIR."/UTILS.class.php");
+require_once(CLASS_DIR."/COMMON_KAIRO.class.php");
+require_once(COMMON_CLASS_DIR."/common/escape.php");
 require_once(SMARTY_H);
 
 $q_count = 20;
