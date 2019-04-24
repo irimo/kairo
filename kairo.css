@@ -1,5 +1,5 @@
 body{
-background:url("./../images/kairo/bg2.png") left top repeat-x #301A12 fixed;
+background:url("./images/bg2.png") left top repeat-x #301A12 fixed;
 margin:0px;
 padding:0px;
 text-align:center;
@@ -7,14 +7,14 @@ font-size:80%;
 }
 #main{
 width:841px;
-background:url("./../images/kairo/inv.png") center top no-repeat #ffffff fixed;
+background:url("./images/inv.png") center top no-repeat #ffffff fixed;
 margin:0px auto;
 padding:0px;
 }
 #main_qhtml{
 height:600px;
 width:841px;
-background:url("./../images/kairo/inv.png") center top no-repeat #ffffff fixed;
+background:url("./images/inv.png") center top no-repeat #ffffff fixed;
 margin:0px auto;
 padding:0px;
 }
