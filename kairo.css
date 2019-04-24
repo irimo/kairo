@@ -1,0 +1,98 @@
+body{
+background:url("./../images/kairo/bg2.png") left top repeat-x #301A12 fixed;
+margin:0px;
+padding:0px;
+text-align:center;
+font-size:80%;
+}
+#main{
+width:841px;
+background:url("./../images/kairo/inv.png") center top no-repeat #ffffff fixed;
+margin:0px auto;
+padding:0px;
+}
+#main_qhtml{
+height:600px;
+width:841px;
+background:url("./../images/kairo/inv.png") center top no-repeat #ffffff fixed;
+margin:0px auto;
+padding:0px;
+}
+
+h1{
+padding-top:100px;
+}
+
+h3{
+font-size:1em;
+line-height:1.3em;
+color:#006600;
+font-weight:lighter;
+background-color:#EEFFCC;
+margin:0px 30px;
+padding:4px 0px;
+border:1px solid #006600;
+}
+#start{
+margin:10px;
+}
+img{
+border:0px;
+}
+table,tr,td{
+padding:0px;
+margin:0px auto;
+}
+td{
+height:200px;
+text-align:center;
+padding:0px 10px;
+}
+.contents{
+text-align:center;
+margin:40px 0px;
+}
+.serif{
+color:#ffffff;
+padding-left:60px;
+padding-top:20px;
+padding-right:0px;
+padding-bottom:0px;
+width:236px;
+height:100px;
+background-image:url("../images/kairo/serif.png");
+font-size:13px;
+text-align:left;
+}
+.serif strong{
+font-size:130%;
+}
+.q_l{
+vertical-align:middle;
+color:#FF99FF;
+font-size:120%;
+}
+.q_r{
+vertical-align:middle;
+color:#660066;
+font-size:120%;
+}
+.q_icon{
+vertical-align:middle;
+}
+.div_clear{
+clear:both;
+width:0px;
+height:0px;
+margin:0px;
+padding:0px;
+}
+
+.totop,.totop a:link,.totop a:visited,.totop a:link{
+font-size:1.3em;
+color:#006666;
+font-weight:bold;
+}
+.totop a:hover{
+color:#33cccc;
+}

@@ -1,0 +1,27 @@
+<?php
+
+require_once("DBManager.php");
+
+class db_common_class{
+	private $db;
+	private $table;
+	function __construct(){
+		$this->db = new DBManager();
+		if($_SERVER["HTTP_HOST"] === "localhost"){
+			$this->table = "%tablename%";
+		} else {
+			$this->table = "%tablename%";
+		}
+	}
+	function set($username,$type,$ip){
+
+		$sql = "INSERT INTO {$this->table}(`USERNAME`, `TYPE`, `IPADDRESS`) ";
+		$sql .= " VALUES ('{$username}','{$type}','{$ip}')";
+		$ret = $this->db->query($sql);
+		return $ret;
+	}
+}
+
+
+
+?>

@@ -1,0 +1,17 @@
+<?php
+// mana 2008.10.10-
+if($_SERVER["HTTP_HOST"] === "localhost"){
+define("HOME_DIR", DIRNAME(__FILE__));
+define("DOCROOT", "http://localhost/kairo");
+} else {
+define("HOME_DIR", "/home/yourbasedir");
+define("DOCROOT", "http://localhost/");
+
+}
+define("CONF_DIR", HOME_DIR."/conf");
+define("CLASS_DIR", HOME_DIR.'/class');
+define("DOCROOT_DIR", HOME_DIR."");
+
+define ("SMARTY_H", CLASS_DIR."/Smarty/Smarty.class.php");
+
+?>
